@@ -1,3 +1,9 @@
-images: []
+images:
+- added: '2024-06-23 03:13:27.200254'
+  iiif: false
+  thumbnail: http://localhost:8182/iiif/3/1.png
+  title: ''
+  url: http://localhost:8182/iiif/3/1.png
+  user: Micah Alex
 settings: {}
 version: '2.1'
