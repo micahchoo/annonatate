@@ -3,21 +3,27 @@ canvas: "https://media.nga.gov/public/manifests/canvas/106382.json"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "vincent\n",
-            "purpose": "commenting",
+            "created": "2024-06-23T03:28:52.020Z",
             "creator": {
                 "id": "micahchoo",
                 "name": "Micah Alex"
             },
-            "created": "2024-06-23T03:28:52.020Z",
-            "modified": "2024-06-23T03:28:56.820Z"
+            "modified": "2024-06-23T03:28:56.820Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "vincent\n"
         }
     ],
+    "id": "7a61d275-4b3f-40f9-b790-f036257faef7.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"10789.285888671875\" cy=\"8796.345336914062\" rx=\"3795.033447265625\" ry=\"5597.6741943359375\"></ellipse></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://media.nga.gov/public/manifests/nga_highlights.json",
@@ -25,13 +31,7 @@ order: 1
             },
             "id": "https://media.nga.gov/public/manifests/canvas/106382.json",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><ellipse cx=\"10789.285888671875\" cy=\"8796.345336914062\" rx=\"3795.033447265625\" ry=\"5597.6741943359375\"></ellipse></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7a61d275-4b3f-40f9-b790-f036257faef7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
